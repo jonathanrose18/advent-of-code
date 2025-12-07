@@ -21,4 +21,4 @@ with open("./input.txt", "r", encoding="utf-8") as f:
                     dial = dial - 1
             if dial == 0:
                 counter = counter + 1
-print(counter) 
+print(f"Result: {counter}")
